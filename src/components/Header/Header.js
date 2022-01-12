@@ -35,10 +35,11 @@ const MainHeader = styled.div`
 `;
 
 const Nav = styled.nav`
-  margin-left: calc(50% - 169px);
-  transform: translateX(-50%);
+  margin-left: 48px;
+  flex: 1;
 
   display: flex;
+  justify-content: center;
   gap: 48px;
 `;
 
