@@ -46,12 +46,13 @@ const Wrapper = styled.div`
 `;
 
 const LeftColumn = styled.div`
-  flex: 1;
+  flex-shrink: 0;
+  flex-basis: 248px;
 `;
 
 const MainColumn = styled.div`
   order: 1;
-  flex-basis: 1098px;
+  flex-basis: 1;
 `;
 
 const Header = styled.header`
